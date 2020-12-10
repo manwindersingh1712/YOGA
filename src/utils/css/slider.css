@@ -8,12 +8,15 @@ html {
 .slider_img {
   width: 100%;
   height: calc(100vh - 80px);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .slider_img img {
   width: 100%;
   height: calc(100vh - 80px);
   overflow: hidden;
+  position: relative;
+  z-index: -1;
 }
 
 .slick-dots li button:before {
