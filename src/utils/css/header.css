@@ -39,6 +39,12 @@
   align-self: center;
   margin-left: 30px;
   cursor: pointer;
+  padding-bottom: 5px;
+  border-bottom: 2px solid white;
+}
+
+.header_container .links li.active {
+  border-bottom: 2px solid black;
 }
 
 .header_container .links li i {
