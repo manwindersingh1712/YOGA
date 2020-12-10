@@ -42,7 +42,7 @@ class SliderClass extends React.Component {
           {photos.map((p) => {
             return (
               <div className="slider_img">
-                <img src={p.url} />
+                <img src={p.url} alt="slider_yoga_posture_image" />
               </div>
             );
           })}
